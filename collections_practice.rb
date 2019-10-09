@@ -38,7 +38,8 @@ end
 kesha
 end
     
-  
+  def find_a(array)
+    
 
 
 
