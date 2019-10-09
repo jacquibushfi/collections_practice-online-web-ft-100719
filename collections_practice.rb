@@ -40,7 +40,7 @@ end
     
   
 
-str[start,length] = str2
+
 
 
 
