@@ -32,7 +32,11 @@ end
 def kesha_maker(array)
   kesha = []
   array.each do |item|
-  item[3, 1] = 
+  item[3] = "$"
+  kesha << item
+end
+kesha
+end
     
   
 
