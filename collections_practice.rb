@@ -48,6 +48,8 @@ end
 a_array
 end
     
+    def sum_array(integers)
+      
 
 
 
