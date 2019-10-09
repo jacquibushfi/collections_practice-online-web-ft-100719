@@ -40,10 +40,11 @@ end
     
   def find_a(array, start = "a")
    a_array = []
-  array.each do |item|
- if item.start_with?[start]
-   a_array << item
-end
+    array.each do |item|
+      if item.start_with?[start]
+       a_array << item
+      end
+    end
 a_array
 end
     
