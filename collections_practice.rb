@@ -30,7 +30,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each
+  kesha = []
+  array.each do |item|
+    item =  item[1, 3]
+    
   
 
 str[start,length] = str2
