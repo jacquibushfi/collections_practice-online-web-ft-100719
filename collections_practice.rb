@@ -38,7 +38,14 @@ end
 kesha
 end
     
-  def find_a(array)
+  def find_a(array, start = "a")
+   a_array = []
+  array.each do |item|
+ if item.start_with?[start]
+   a_array << item
+end
+a_array
+end
     
 
 
