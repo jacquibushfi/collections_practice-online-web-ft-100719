@@ -52,9 +52,9 @@ def sum_array(integers)
   integers.inject {|sum, number| sum + number}
 end
 
-
-
-
-
-
+def add_s(array)
+  array.each_with_index.collect do |element, index|
+    if index != 1 
+      
+      
 
