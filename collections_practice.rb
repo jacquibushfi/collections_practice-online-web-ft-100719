@@ -48,8 +48,9 @@ end
 a_array
 end
     
-    def sum_array(integers)
-      
+def sum_array(integers)
+  integers.inject {|sum, number| sum + number}
+end
 
 
 
